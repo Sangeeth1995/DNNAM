@@ -35,10 +35,10 @@ The setting for the learning rate, α is 0.001. In order to improve the DNNAM mo
 
 Classification results on Bridge component classification dataset:
 
-![Classification results on Bridge component classification dataset](figures/Bridge component classification dataset Table.png)
+![Classification results on Bridge component classification dataset](figures/Table1.png)
 
 Classification results on  Semantic Augmented Make3D dataset:
 
-![Classification results on  Semantic Augmented Make3D dataset](figures/ Semantic Augmented Make3D dataset Table.png)
+![Classification results on  Semantic Augmented Make3D dataset](figures/Table2.png)
 
 
