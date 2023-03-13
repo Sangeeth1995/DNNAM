@@ -23,8 +23,22 @@ Proposed DNNAM Architecture model for structural component recognition. Here Con
 
 Diagram of the SDAM (attention module):
 
-![DNNAM Architecture](figures/SDAM.png)
+![SDAM Module and its submodules](figures/SDAM.png)
 
 The figure describes: (a). Proposed Synchronous dual attention module for DNNAM architecture is composed of a batch of multi-feature attention module and a parallel excitation module. (b). The Batch of multi-feature attention module is a combination of 3 self-attention layers. In each layer, the Input(I), together with its matching height, width, and chan- nel count, are taken into consideration. The attention mask is then created using the SoftMax function, the outputs T2 and T3 are multiplied elementally, and T1 is multiplied with the attention mask to highlight the important features. After that, the identity mapping is completed by adding an input tensor to the output. (c). The Parallel Excitation Module examines the im- portant Spatial, Sp(I) and Channel, Ch(I) Information Sepa- rately. The first half of the module uses convolution blocks to capture the common spatial features present in all chan- nels. The second half of the module includes a function that squeezes the input tensor’s spatial plane using global average pooling before stimulating it channel-wise to get channel information.
+
+# Hyper-parameters for training
+
+The setting for the learning rate, α is 0.001. In order to improve the DNNAM model, the Adam optimizer is used for optimization strategy with β1 = 0.9 and β2 = 0.999. The models are trained using the Bridge component classification dataset over 100 epochs. The experiments are carried out on a system with an Intel(R) Core(TM) i7-9700 processor, 32 GB of RAM, and an NVIDIA GeForce RTX-2080 8GB GPU card utilising the Python Keras API and TensorFlow backend.
+
+# Results
+
+Classification results on Bridge component classification dataset:
+
+![Classification results on Bridge component classification dataset](figures/Bridge component classification dataset Table.png)
+
+Classification results on  Semantic Augmented Make3D dataset:
+
+![Classification results on  Semantic Augmented Make3D dataset](figures/ Semantic Augmented Make3D dataset Table.png)
 
 
