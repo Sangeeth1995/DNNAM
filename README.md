@@ -2,7 +2,7 @@
 
 This is the tensorflow implementation of "Deep Neural Network Based Attention Model for Structural Component Recognition. This repository includes the proposed Synchronous Dual Attention Module, Batch of Multi-feature Attention Module and Parallel Excitation Module. The results folder contains the results and the visualizations using attention maps.
 
-#Citation
+# Citation
 
 If you are fully or partially using codes/results from this repository, please cite the following paper:
 
