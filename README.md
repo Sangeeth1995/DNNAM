@@ -53,6 +53,12 @@ Attention Map:
 
 Attention maps obtained from the proposed DNNAM network for sample images from the Bridge component classification dataset. (a) Original images are followed by their respective (b) attention maps and (c) heatmaps are placed side-by-side.
 
+# Datasets
+
+Bridge component classification dataset : We have evaluated our algorithms and compared them with the existing methods on the benchmark- ing dataset for bridge component classification provided by the authors (Narazaki et al., 2017; Narazaki et al., 2020; Narazaki et al., 2018), obtained for academic research and algorithmic evaluation comparison purposes. 
+
+Semantically-augmented make3d dataset: http://dags.stanford.edu/projects/scenedataset.html
+
 
 
 
