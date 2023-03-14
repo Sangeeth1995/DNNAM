@@ -41,4 +41,21 @@ Classification results on  Semantic Augmented Make3D dataset:
 
 ![Classification results on  Semantic Augmented Make3D dataset](figures/Table2.png)
 
+Segmentation results:
+
+![Segmentation results](figures/Segmentation_results.png)
+
+Segmentation results of our proposed DNNAM model. Our proposed DNNAM model yields a mean IOU of 65.94% with pixel wise accuracy of 82.85%.
+
+Attention Map:
+
+![Attention Map](figures/Attention_Map.png)
+
+Attention maps obtained from the proposed DNNAM network for sample images from the Bridge component classification dataset. (a) Original images are followed by their respective (b) attention maps and (c) heatmaps are placed side-by-side.
+
+
+
+
+
+
 
